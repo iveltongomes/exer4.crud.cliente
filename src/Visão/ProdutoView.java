@@ -212,7 +212,8 @@ clienteController clientecontroller = new clienteController();
     }//GEN-LAST:event_jtextcpfActionPerformed
 
     private void cadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadastrarActionPerformed
-       clientecontroller.create(jtextnome.getText(),
+ JOptionPane.showMessageDialog(null,"SALVO COM SUCESSO");
+        clientecontroller.create(jtextnome.getText(),
               jtextemail.getText(),
             jtextcpf.getText(),jtexttelefone.getText(),jtextniver.getText());
       
